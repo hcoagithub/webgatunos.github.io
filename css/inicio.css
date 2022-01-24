@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*barra de navegacion*/
+
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 100px;
+}
+
+.navbar {
+    width: 100%;
+    background: rgb(63, 219, 185);
+
+}
+
+ #pata {
+    margin-right: 10px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.navbar .gatunos {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+    border-radius: 50px;
+}
+
+/*barra de navegacion*/
+
+/*inicio*/
+
+#rowUno {
+    background: rgb(47, 185, 151);
+    border-top: 0.5px solid white;
+    padding-top: 70px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.card {
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(33, 53, 48, 0.6);
+
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+#cat {
+    width: 250px;
+    height: 250px;
+    margin:  10 auto;
+}
+
+
+#rowDos {
+    border-top: 0.5px solid white;
+    background: rgb(47, 185, 151);
+    color: white;
+text-align: center;
+}
+
+#colUno{
+    text-align: end;
+    
+}
+
+
+/*inicio*/
+

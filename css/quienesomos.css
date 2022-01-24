@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*barra de navegacion*/
+
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 100px;
+}
+
+.navbar {
+    width: 100%;
+    background: rgb(63, 219, 185);
+
+}
+
+ #pata {
+    margin-right: 10px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.navbar .gatunos {
+    font-size: 30px;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: white;
+    border-radius: 50px;
+}
+
+/*barra de navegacion*/
+
+.container {
+    display: flex;
+}
+
+.row {
+    padding-top: 100px;
+    margin: auto;
+}
+
+.row p{
+    margin: 20px;
+}
+
+#galeria {
+    width: 250px;
+    height: 250px;
+    margin:  10 auto;
+}
+
+.card {
+    background: rgb(68, 218, 180);
+    box-shadow: 0px 20px 10px rgb(82, 81, 81);
+    height: 500px;
+    cursor: pointer;
+}

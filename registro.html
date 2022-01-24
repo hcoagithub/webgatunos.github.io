@@ -1,0 +1,170 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--cdn fontawasome-->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+
+  <!--cdn booststrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--link css-->
+  <link rel="stylesheet" href="./css/formulario.css">
+
+
+  <title>Gatunos</title>
+</head>
+
+<body>
+
+  <!-- Barra de navegacion Nav bar-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <div class="container-fluid">
+
+        <span class="Gatunos"><i id="pata" class="fas fa-paw"></i>GATUNOS</span>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="secciones">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Incio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienessomos.html">Quienes Somos?</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./registro.html">Registro</a>
+              </li>
+           
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
+
+  </header>
+
+  <div class="contenedor">
+
+    <form  id="formulario" class="formulario" method="get" action="#">
+
+
+      <div class="titulo">
+        <h1>Formulario de Registro</h1>
+      </div>
+
+      <div class="correo mt-4">
+        <label for="email" class="correo">Correo</label>
+        <input type="email" name="correo">
+      </div>
+
+      <div class="mt-4">
+          
+        
+          <label for="run" class="run">Run</label>
+          <input type="text" name="run" id="run"><strong> -</strong>
+          <input type="text" name="digito" id="digito">
+          <p id="error"></p> 
+      </div>
+      
+   
+
+      <div class="nombre mt-4">
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" name="nombre">
+      </div>
+
+      <div class="fecha mt-4">
+          <label for="fechanacimiento">Fecha de Nacimiento</label>
+          <input type="date" max="2001-12-31">
+      </div>
+
+      <div class="telefono mt-4">
+        <label for="telefono">Telefono <strong>+ 56</strong></label>
+        <input type="tel"  name="telefono" class="telefono">
+      </div>
+
+<div class="region mt-4">
+  <label for="regiones">Región</label>
+  <select name="regiones" id="regiones">
+<option value="Valparaiso">Valparaíso</option>
+<option value="Metropolitanda">Metropolitana</option>
+  </select>
+</div>
+
+<div class="region mt-4">
+  <label for="ciudades">Ciudades</label>
+  <select name="ciudades" id="ciudades">
+<option value="Valparaiso">Valparaíso</option>
+<option value="Viña del Mar">Viña del Mar</option>
+<option value="Concón">Concón</option>
+<option value="Reñaca">Reñaca</option>
+<option value="Estacion Central">Estación Central</option>
+<option value="Quinta Normal">Quinta Normal</option>
+<option value="Providencia">Providencia</option>
+<option value="Ñuñoa">Ñuñoa</option>
+  </select>
+</div>
+
+<div class="vivienda mt-4">
+  <label for="vivienda">Tipo de Vivienda</label>
+  <select name="vivienda" id="vivienda">
+    <option value="casagrande">Casa con patio grande</option>
+    <option value="casapequeña">Casa con patio pequeño</option>
+    <option value="casasin">Casa sin patio</option>
+    <option value="depa">Departamento</option>
+  </select>
+
+</div>
+
+<div class="boton mt-4">
+  <button type="submit" class="btn btn-primary" name="registro">Registrar</button>
+</div>
+
+
+    </form>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+
+
+
+  <!-- script bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+  
+
+  <!--script app.js-->
+  <script src="./js/app.js"></script>
+
+</body>
+
+</html>
